@@ -13,9 +13,11 @@ h1 {
 h2 {
   text-align: center;
   font-size: 30px;
-  margin: 5px;
+  margin: 10px;
   text-decoration: rgb(63, 69, 106) underline;
   color: antiquewhite;
+  background: rgb(62, 62, 62);
+  border-radius: 5px;
 }
 card {
   padding: 10px;
@@ -28,7 +30,7 @@ card {
 card button {
   border-radius: 20px;
   padding: 15px;
-  margin: 10px auto;
+  margin: 5px auto;
   background: rgb(62, 62, 62);
   color: white;
   font-size: 16px;
@@ -42,6 +44,7 @@ button:hover {
 }
 img {
   max-width: 100%;
+
   border-radius: 20px;
 }
 @media (max-width: 480px) {

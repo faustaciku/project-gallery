@@ -25,6 +25,21 @@ card {
   background: rgb(28, 27, 28);
   box-shadow: 7px 10px rgba(28, 28, 28, 0.2);
 }
+card button {
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px auto;
+  background: rgb(62, 62, 62);
+  color: white;
+  font-size: 16px;
+  display: block;
+}
+button:hover {
+  cursor: pointer;
+  color: black;
+  background: white;
+  transition: 200ms ease-in-out;
+}
 img {
   max-width: 100%;
   border-radius: 20px;

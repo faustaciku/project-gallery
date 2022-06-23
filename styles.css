@@ -1,5 +1,6 @@
 body {
   margin: 20px;
+  background-image: url("images/background.jpg");
 }
 h1 {
   font-size: 50px;
@@ -9,6 +10,11 @@ h1 {
 h3 {
   text-align: center;
   margin-top: 5px;
+}
+header {
+  background: rgb(67, 67, 67);
+  padding: 10px;
+  color: rgb(208, 198, 198);
 }
 .container {
   display: flex;
@@ -27,7 +33,7 @@ h2 {
 }
 card {
   padding: 10px;
-  border: 5px solid rgb(36, 9, 13);
+  border: 5px solid black;
   margin: 10px;
   border-radius: 40px;
   background: rgb(28, 27, 28);

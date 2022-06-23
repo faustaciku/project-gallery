@@ -1,20 +1,22 @@
 body {
-  margin: 20px;
+  margin: 0px;
   background-image: url("images/background.jpg");
 }
 h1 {
   font-size: 50px;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 h3 {
   text-align: center;
   margin-top: 5px;
+  font-size: 25px;
 }
 header {
-  background: rgb(67, 67, 67);
-  padding: 10px;
+  background: rgb(54, 54, 54);
+  padding: 0px;
   color: rgb(208, 198, 198);
+  font-family: "Prata", serif;
 }
 .container {
   display: flex;
@@ -33,7 +35,7 @@ h2 {
 }
 card {
   padding: 10px;
-  border: 5px solid black;
+  border: 1px solid black;
   margin: 10px;
   border-radius: 40px;
   background: rgb(28, 27, 28);
@@ -62,6 +64,7 @@ img {
 footer p {
   text-align: center;
   margin-top: 40px;
+  color: white;
 }
 @media (max-width: 480px) {
   .container {

@@ -58,8 +58,14 @@ button:hover {
 }
 img {
   max-width: 100%;
-
+  height: auto;
   border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+card p {
+  color: white;
+  font-size: 18px;
 }
 footer p {
   text-align: center;

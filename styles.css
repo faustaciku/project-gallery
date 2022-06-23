@@ -53,6 +53,10 @@ img {
 
   border-radius: 20px;
 }
+footer p {
+  text-align: center;
+  margin-top: 40px;
+}
 @media (max-width: 480px) {
   .container {
     flex-direction: column;

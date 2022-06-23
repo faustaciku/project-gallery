@@ -14,14 +14,18 @@ h2 {
   text-align: center;
   font-size: 30px;
   margin: 5px;
-  text-decoration: pink underline;
+  text-decoration: rgb(63, 69, 106) underline;
+  color: antiquewhite;
 }
 card {
   padding: 10px;
-  border: 5px solid pink;
+  border: 5px solid rgb(36, 9, 13);
   margin: 10px;
   border-radius: 40px;
+  background: rgb(28, 27, 28);
+  box-shadow: 7px 10px rgba(28, 28, 28, 0.2);
 }
 img {
   max-width: 100%;
+  border-radius: 20px;
 }

@@ -36,6 +36,7 @@ h2 {
 card {
   padding: 10px;
   border: 1px solid black;
+  height: 330px;
   margin: 10px;
   border-radius: 40px;
   background: rgb(28, 27, 28);

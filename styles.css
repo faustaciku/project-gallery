@@ -57,7 +57,7 @@ button:hover {
   transition: 200ms ease-in-out;
 }
 img {
-  max-width: 100%;
+  max-width: 420px;
   height: auto;
   border-radius: 20px;
   display: block;
@@ -66,6 +66,7 @@ img {
 card p {
   color: white;
   font-size: 18px;
+  display: none;
 }
 footer p {
   text-align: center;

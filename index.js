@@ -6,6 +6,5 @@ function displayText(number) {
     card.style.height = "auto";
   } else {
     paragraph.style.display = "none";
-    card.style.height = "330px";
   }
 }

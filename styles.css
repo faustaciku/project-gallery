@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   background-image: url("images/background.jpg");
+  width: fit-content;
 }
 h1 {
   font-size: 50px;
@@ -94,6 +95,7 @@ footer p {
     flex-direction: column;
     margin-top: 10px;
   }
+
   header {
     margin-bottom: 10px;
   }

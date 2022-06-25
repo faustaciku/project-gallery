@@ -27,6 +27,7 @@ header {
   padding: 0px;
   color: rgb(208, 198, 198);
   font-family: "Prata", serif;
+  margin-bottom: 100px;
 }
 header,
 footer {
@@ -37,7 +38,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 h2 {
@@ -91,6 +92,9 @@ footer p {
 @media (max-width: 480px) {
   .container {
     flex-direction: column;
-    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  header {
+    margin-bottom: 10px;
   }
 }

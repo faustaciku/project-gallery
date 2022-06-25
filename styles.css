@@ -4,10 +4,11 @@ body {
 }
 h1 {
   font-size: 50px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 h3 {
   margin-top: 5px;
+  margin-bottom: 0;
   font-size: 25px;
 }
 header,
@@ -20,11 +21,17 @@ card button,
 p {
   color: white;
 }
+
 header {
   background: rgb(54, 54, 54);
   padding: 0px;
   color: rgb(208, 198, 198);
   font-family: "Prata", serif;
+}
+header,
+footer {
+  flex-shrink: 0;
+  flex-basis: 100%;
 }
 .container {
   display: flex;
@@ -57,7 +64,6 @@ card button {
   border-radius: 20px;
   padding: 15px;
   margin: 5px auto;
-
   font-size: 16px;
   display: block;
 }
@@ -68,7 +74,7 @@ button:hover {
   transition: 200ms ease-in-out;
 }
 img {
-  max-width: 420px;
+  width: 420px;
   height: auto;
   border-radius: 20px;
   display: block;
@@ -85,5 +91,6 @@ footer p {
 @media (max-width: 480px) {
   .container {
     flex-direction: column;
+    flex-wrap: wrap;
   }
 }
